@@ -41,6 +41,42 @@
         font-size: 25px;
     
     }
+/* change your habit style */
 
+    .habit-section-text-container-title{
+        font-size: 1.8rem;
+    }
+    .habit-section-box-container{
+        display: grid;
+        /* gap: 10px; */
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+    .box-image> img{
+        border-radius: 10rem;
+        width: 80%;
+        margin-bottom: 1.5rem;
 
+    
+    }
+
+    /* Run Section Style */
+    .run-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        padding: 1rem;
+        
+    }
+    .run-section-text-container{
+        width: 90%;
+        margin-bottom: 2rem;    
+    }
+    .run-section-image-container{
+        width: 90%;
+       
+    }
 }
