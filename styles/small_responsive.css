@@ -95,4 +95,11 @@
         gap: 10px;
         width: 100%;
     }
+
+    /* Footer Section */
+    .footer-text-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* gap: .5rem; */
+    }
 }

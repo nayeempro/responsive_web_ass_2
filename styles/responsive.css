@@ -328,6 +328,9 @@ input::placeholder{
 /* BMI Ends Here */
 
 /* Team section Style Strats */
+.team-section{
+    /* margin-bottom: 50px */
+}
 .team-section-text-container{
     border: 2px solid red;
     width: 60%;
@@ -340,6 +343,9 @@ input::placeholder{
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
     width: 100%;
+    padding: 10px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .team-section-text-container-title{
@@ -372,4 +378,40 @@ input::placeholder{
     position: absolute;
     bottom: 2%;
     left: 3%;
+}
+
+/* Footer Style Starts Here */
+.footer-section{
+    background-color: rgba(39, 37, 37, 0.8);
+}
+
+.footer-menu-title{
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 10px;
+    color: #E6533C;
+}
+.footer-menu-title2{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    line-height: 15px;
+}
+.footer-menu-description{
+    font-size: .8rem;
+}
+.footer-text-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5rem;
+}
+.underline{
+    border: 2px	solid
+    rgba(255, 255, 255, 0.1);
+}
+.copyright{
+    text-align: center;
+    font-size: .9rem;
 }
