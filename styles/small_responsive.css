@@ -94,9 +94,9 @@
     .bmi-title{
         font-size: 1.5rem;
     }
-    .bmi-title-des{
+    /* .bmi-title-des{
         font-size: .8rem;
-    }
+    } */
     .bmi-calc{
         background: rgb(34, 34, 34);
         display: flex;
