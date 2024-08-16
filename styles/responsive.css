@@ -418,6 +418,7 @@ input::placeholder{
  .challenge-section-box-container{
     /* border: 3px solid rgb(0, 6, 128);  */
     display: flex;
+    gap: 10px;
     height: 500px;
  }
  .box{
