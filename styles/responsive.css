@@ -32,7 +32,7 @@
     padding: 7px 20px;
 }
 .common-margin{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 75%;
     margin: 1% 12% 0% 12%;
 }
@@ -40,13 +40,15 @@
 
 /* Header Style Starts Here*/
 .header-sec{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-image: linear-gradient(rgb(17, 17, 17) 10%,rgba(0, 0, 0, 0.797),rgb(17, 17, 17) 90%);
+  
+
 }
 nav{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 75%;
-    margin: 1% 12% 0% 12%;
+    margin: 1% 12% 3% 12%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,9 +89,9 @@ color: #E6533C;
 }
 
 .header-container{
-    border: 2px solid red;
+    /* border: 2px solid rgb(250, 206, 6); */
     width: 75%;
-    margin: 1% 12% 0% 12%;
+    margin: 1% 12% 5% 12%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,7 +99,6 @@ color: #E6533C;
 
 .header-text-container-title{
     font-size: 5rem;
-
 }
 .shape-style{
     font-family: 'Miama', sans-serif;
@@ -139,7 +140,7 @@ color: #E6533C;
 .icon{
     width: 40px;
     height: 40px;   
-    border: 2px solid #E6533C;
+    /* border: 2px solid #E6533C; */
     border-radius: 30px;
     background-color: #E6533C;
 
@@ -187,12 +188,18 @@ height: 30%;
 .main-section{
     
     background-color: black;
-    margin-top: 0px;
-    /* background: rgb(185, 185, 185); */
+    margin-top: -75px;
 }
+
 .habit-section-text-container{
    text-align: center;
-   line-height: 20px; 
+   line-height: 20px;
+   padding-top: 30px;
+   /* border: 3px solid green;  */
+}
+.habit-section-text-container-title{
+   /* border: 3px solid green; */
+   /* margin-top: 50px; */
 }
 .habit-section-box-container{
     display: grid;
@@ -211,7 +218,7 @@ height: 30%;
     font-weight: 600;
     text-align: center;
 }
-.box-text-descriptipn{
+.box-text-description{
     text-align: center;
 }
 /* Habit Section Style Ends */
@@ -244,18 +251,28 @@ height: 30%;
 /* Run section End */
 
 /* BMI start here */
+.bmi-section{
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+     /* border: 5px solid yellow; */
+}
 .bmi-text{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: start;
     width: 50%;
     margin: 0% 25%;
     line-height: 15px;
+    text-align: center;
 }
 .bmi-calc{
     background: rgb(34, 34, 34);
     display: flex;
     justify-content: space-between;
-    padding: 2% 10%;
+    padding: 2% 15%;
+}
+.bmi-calc-child{
+    width: 45%;
 }
 
 .bmi-title{
@@ -263,14 +280,16 @@ color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 1.5rem;
 font-weight: 900;
-
 }
 
 .bmi-calc-table{
-    border: 2px solid red;
-    width:25%;
+    /* border: 2px solid red; */
     /* align-content: center; */
 
+}
+.bmi-calc-table>table{
+    width: 100%;
+    height: 80%;
 }
 .tab-style{
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -288,9 +307,7 @@ table>tr>td{
     font-weight: 400;
 }
 .bmi-calc-form{
-    border: 2px solid red;
-    width: 40%;
-    
+    /* border: 2px solid rgb(236, 2, 182); */
 
 }
 .form-bg{
@@ -299,8 +316,8 @@ table>tr>td{
     font-family: Inter;
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.3);
-    padding: 12px 15px 12px 15px;
-    /* width: 100%; */
+    padding: 5px 0px;
+    width: 100%;
     border: none;
     /* margin-left: 5px; */
 
@@ -310,21 +327,29 @@ input::placeholder{
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.3);;
 }
-.bmi-form-input{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid rgb(40, 2, 129);
-}
-.line-1{
-    border: 2px solid yellow;
-    display: flex;
-    width: 45%;
-}
-.last-line{
-    max-width: 100%;
-    border: 2px solid red;
-}
 
+.form-first-part{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    /* border: 3px solid green; */
+    align-content: center;
+    margin-bottom: .8rem;
+}
+.form-feild{
+    width: 48%;
+    /* border: 3px solid yellow; */
+}
+.form-last-part{
+    width: 99%;
+    margin-bottom: .8rem;
+    border: none;
+    /* border: 3px solid green; */
+}
+.bmi-button{
+    width: 40%;
+}
 /* BMI Ends Here */
 
 /* Team section Style Strats */
@@ -332,9 +357,10 @@ input::placeholder{
     /* margin-bottom: 50px */
 }
 .team-section-text-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 60%;
     align-items: center;
+    text-align: center;
     margin: 0% 20%;
 }
 .team-section-image-container{
@@ -379,10 +405,12 @@ input::placeholder{
     bottom: 2%;
     left: 3%;
 }
+/* Challenge */
 
 /* Footer Style Starts Here */
 .footer-section{
     background-color: rgba(39, 37, 37, 0.8);
+    margin-top: -1rem;
 }
 
 .footer-menu-title{
@@ -415,3 +443,8 @@ input::placeholder{
     text-align: center;
     font-size: .9rem;
 }
+
+
+
+
+

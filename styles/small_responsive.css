@@ -41,6 +41,12 @@
         font-size: 25px;
     
     }
+    /* main */
+    .main-section{
+    
+        background-color: black;
+        margin-top: -30px;
+    }
 /* change your habit style */
 
     .habit-section-text-container-title{
@@ -80,6 +86,46 @@
        
     }
 
+    /* BMI Start */
+    .bmi-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .bmi-title{
+        font-size: 1.5rem;
+    }
+    .bmi-title-des{
+        font-size: .8rem;
+    }
+    .bmi-calc{
+        background: rgb(34, 34, 34);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2% 10%;
+        /* text-align: center;
+        align-content: center; */
+    }
+   
+    .bmi-title{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 900;
+    }
+    .bmi-calc-table{
+        /* border: 2px solid red; */
+        width:80%;
+        /* align-content: center; */
+    
+    }
+    .bmi-calc-form{
+        /* border: 2px solid red; */
+        width: 80%;
+    }
+
+    /* BMI Ends */
     /* Meet Our Team section */
     .team-section-text-container-title{
         font-size: 1.5rem;
@@ -97,9 +143,14 @@
     }
 
     /* Footer Section */
+    .footer-section{
+        margin-top: -.4rem;
+    }
     .footer-text-container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         /* gap: .5rem; */
     }
+
+
 }
